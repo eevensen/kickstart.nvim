@@ -40,10 +40,6 @@ vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next [D]iagn
 -- vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Show diagnostic [E]rror messages' })
 -- vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
---keywordprg
--- NOTE: What is it and how to use it?
--- vim.keymap.set('n', '<leader>K', '<cmd>norm! K<cr>', { desc = 'Keywordprg' })
-
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
 -- is not what someone will guess without a bit more experience.
@@ -171,7 +167,7 @@ vim.keymap.set('n', '<leader>fn', '<cmd>enew<cr>', { desc = 'New File' })
 -- vim.keymap.set('n', '<leader>xl', '<cmd>lopen<cr>', { desc = 'Location List' })
 -- vim.keymap.set('n', '<leader>xq', '<cmd>copen<cr>', { desc = 'Quickfix List' })
 
-vim.keymap.set('n', '<leader>uL', ':set relativenumber!<CR>', { desc = 'Toggle Relative Line Numbers' })
+vim.keymap.set('n', '<leader>cL', ':set relativenumber!<CR>', { desc = 'Toggle Relative Line Numbers' })
 -- vim.keymap.set("n", "<leader>ul", function() LazyVim.toggle.number() end, { desc = "Toggle Line Numbers" })
 
 -- vim.keymap.set("n", "<leader>us", function() LazyVim.toggle("spell") end, { desc = "Toggle Spelling" })
