@@ -56,7 +56,8 @@ return {
       { '<leader>r', group = 'Rename' },
       { '<leader>s', group = 'Split' },
       { '<leader>w', group = 'Workspace' },
-      { '<leader>t', group = 'Toggle' },
+      -- { '<leader>t', group = 'Toggle' },
+      { '<leader>q', group = 'Quit' },
       -- { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
     })
   end,

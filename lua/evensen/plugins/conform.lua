@@ -12,15 +12,15 @@ return {
       formatters_by_ft = {
         javascript = { 'prettier' },
         typescript = { 'prettier' },
-        javascriptreact = { 'prettier' },
-        typescriptreact = { 'prettier' },
+        -- javascriptreact = { 'prettier' },
+        -- typescriptreact = { 'prettier' },
         markdown = { 'prettier' },
         css = { 'prettier' },
         html = { 'prettier' },
         json = { 'prettier' },
         yaml = { 'prettier' },
         lua = { 'stylua' },
-        python = { 'isort', 'black' },
+        -- python = { 'isort', 'black' },
         php = { 'phpcs', 'phpcbf' },
       },
       format_on_save = function(bufnr)

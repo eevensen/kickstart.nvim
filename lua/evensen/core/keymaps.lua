@@ -92,7 +92,7 @@ vim.keymap.set('i', '<C-e>', '<End>', { desc = 'move end of line' })
 
 -- Save file with <C-s>
 vim.keymap.set({ 'i', 'x', 'n', 's' }, '<C-s>', '<cmd>w<cr><esc>', { desc = 'Save File' })
-vim.keymap.set({ 'i', 'x', 'n', 's' }, '<C-x>', '<cmd>q<cr><esc>', { desc = 'Exit File' })
+-- vim.keymap.set({ 'i', 'x', 'n', 's' }, '<C-x>', '<cmd>q<cr><esc>', { desc = 'Exit File' })
 -- vim.keymap.set('n', '<C-c>', '<cmd>%y+<CR>', { desc = 'file copy whole' })
 
 -- quit

@@ -6,6 +6,7 @@ return {
     dependencies = {
       -- Snippet Engine & its associated nvim-cmp source
       {
+        'hrsh7th/cmp-buffer',
         'L3MON4D3/LuaSnip',
         build = (function()
           -- Build Step is needed for regex support in snippets.
@@ -104,6 +105,7 @@ return {
         }),
         sources = {
           { name = 'nvim_lsp' },
+          { name = 'codeium' },
           { name = 'luasnip' },
           { name = 'buffer' },
           { name = 'path' },
